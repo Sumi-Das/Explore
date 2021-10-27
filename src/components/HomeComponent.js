@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Card, CardBody, CardImg, CardText, CardTitle, Spinner} from 'reactstrap';
 import Slider from './CarouselComponent.js';
 import { baseUrl } from '../shared/baseUrl';
+import { FadeTransform } from 'react-animation-components'
 
 
 function RenderTopblogs({topblog}) {
